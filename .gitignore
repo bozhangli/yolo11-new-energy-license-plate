@@ -141,14 +141,12 @@ dmypy.json
 
 # datasets and projects (ignore /datasets dir at root only to allow for docs/en/datasets dir)
 /datasets
-runs/
 wandb/
 .DS_Store
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
 weights/
 *.weights
-*.pt
 *.pb
 *.onnx
 *.engine
@@ -169,3 +167,5 @@ pnnx*
 
 # calibration image
 calibration_*.npy
+
+ccpd_green/
