@@ -166,4 +166,5 @@ pnnx*
 # calibration image
 calibration_*.npy
 
-ccpd_green/
+ccpd_green/images
+ccpd_green/labels

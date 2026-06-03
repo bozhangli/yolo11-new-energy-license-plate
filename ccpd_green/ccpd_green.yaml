@@ -1,0 +1,7 @@
+# Ultralytics YOLO dataset config for CCPD green license plate detection
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: new_energy_license_plate
